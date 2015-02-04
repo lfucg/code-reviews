@@ -11,7 +11,6 @@
   * clone the repository at the url
   * (git extensions) command > branch > create a new branch called 'gh-pages'
   * push the new branch back to github (by clicking push)
-  * 
 * After a couple of minutes, your site will be deployed at the following url: [your-github-username].github.io/[repository-name]. For example: http://eeeschwartz.github.io/startbootstrap-grayscale/
 * To customize you site:
   * Make changes on your local machine (on the gh-pages branch), 
