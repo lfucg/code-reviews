@@ -1,4 +1,4 @@
-# Let's create a Computer Services site, describing what we do!
+# Let's create a (demo) Computer Services site, describing what we do!
 
 ### Let's start with a basic template and build up.
 
