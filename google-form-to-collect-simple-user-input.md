@@ -50,7 +50,7 @@
 When someone clicks on the link, it tells the feedback form to show itself:
 
 ```
-      <script>
+      <script type="text/javascript">
         $('a.feedback').click(function(e) {
           e.preventDefault();
           $('#feedback-form').show();
