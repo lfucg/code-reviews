@@ -1,7 +1,7 @@
 # Let's create a simple form
-## Is anything is wrong with the current page?
 
-#### Like this government website asks:
+### To see if there is anything wrong on the page, like this government website asks:
+
 
 <img width="600px" src="https://raw.githubusercontent.com/lfucg/code-reviews/master/images/is-there-anything-wrong.png" alt="is there anything wrong with this site">
 
