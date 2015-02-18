@@ -1,4 +1,5 @@
-# Let's create a simple form that asks a user if anything is wrong with the current page
+# Let's create a simple form
+## Is anything is wrong with the current page?
 
 #### Like this government website asks:
 
