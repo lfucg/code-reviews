@@ -64,7 +64,5 @@ When someone clicks on the link, it tells the feedback form to show itself:
 ### Ideas for improvement
 
 * Improve the style of the form so that it matches the surrounding page better
-
-Make `what you were doing` required in the google form editor
+* Make `what you were doing` required in the google form editor
 * Email yourself when someone submits a form entry
-* 
