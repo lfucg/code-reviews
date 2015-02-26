@@ -29,8 +29,9 @@
 
 ### Let's hide the form until someone clicks the `Is there anything wrong` link
 
-* Create the link above our iframe
-
+* In index.html, create the link above our iframe
+* Let's hide the iframe. Add the `style="display:none"` attribute to the iframe tag
+* Also add `id="feedback-form"` to the iframe tag
 
 ```
   <a class="feedback" href="#">Is there anything wrong with this page?</a>
@@ -38,16 +39,20 @@
   <iframe style="display:none" id="feedback-form" src="https://docs.google.com/forms/d/1zREHXRmHdxVNBcObm2OEerW8PEtW2rrIviQVfSL6uC0/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 ```
 
+Now when we open index.html, the feedback form should be hidden
+
 ### Let's add the jQuery javascript library to select elements from the page
 
-* below the footer add
+* just before `</body>`, add:
 
 `<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>`
 
-
 ### Add a javascript section that programs our document
 
-When someone clicks on the link, it tells the feedback form to show itself:
+
+When someone clicks on the link, it tells the feedback form to show itself.
+
+Paste this in after the jquery script:
 
 ```
       <script type="text/javascript">
